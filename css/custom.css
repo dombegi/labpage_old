@@ -1,0 +1,158 @@
+﻿
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+* {font-family: 'Roboto', sans-serif;}
+
+/*
+#mid {max-width:800px; margin:0 auto; }
+#content {width:640px;  margin-top:25px; margin-left:10px; margin-bottom:25px; float:left; line-height:200%; }
+#content ul { list-style:disc inside none; max-width:600px;}
+#newstop { overflow:hidden; margin-bottom:15px;}
+.content_img { float:right; margin-left:10px; margin-bottom:10px;}
+.headline {float:left; color: #333; }
+.date { float:right; color:#FF6600; }
+.newshead {float:left; color: #333; }
+.newsmore { float:right; color:#333; }
+.news{ clear:both; }
+.news_sentence { padding:8px; text-indent:20px; clear:both; }
+
+
+.content_sentence { text-indent:20px; overflow:hidden;}
+.content_sentence ul { list-style:disc inside none; max-width:600px;}
+.imagepart { max-width:150px; float:left; margin-left:10px; margin-right:20px; margin-bottom:25px;}
+.wordpart { text-indent:0; max-width:450px; float:left; margin-left:5px; margin-right:10px; margin-bottom:25px;}
+.namepart { width:200px; float:left; margin-left:10px; margin-right:20px; margin-bottom:25px;}
+.mailpart { text-indent:0; max-width:450px; float:left; margin-left:5px; margin-right:10px; margin-bottom:25px;}
+.telmail { margin-left:15px;}
+
+.doctor { float:left; width:200px;}
+.master { float:left; width:200px;}
+.grade4 { float:left; width:230px;}
+
+.author { text-indent:15px; }
+.dicmenu {list-style:none;}
+.dicmenu a {cursor:pointer;}
+.dichide {display:none;}
+.dic_content {text-indent:25px;}
+
+.newsmenu {overflow:hidden; list-style:none;}
+.newsmenu a {cursor:pointer;}
+.newshide {display:none;}
+
+.division { overflow:hidden; margin-top:70px; margin-bottom:30px;}
+.imgcenter { display:block; margin-top:15px; margin-bottom:15px; margin-left:auto; margin-right:auto; }
+
+
+
+#submenu {max-width:135px; max-height:800px; margin-left:15px; float:left; margin-bottom:25px;}
+#submenu > ul { display:block; list-style:none; height:70px; margin-bottom:25px;}
+#submenu > ul > li { }
+#submenu > ul > li > a {display:block; padding:5px; color:#424242;}
+#submenu > ul > li > a:hover {display:block; padding:5px; color:#006e4f; text-decoration:underline;}
+#selectbox { display:block; padding:5px; margin-left:50px;}
+
+#pagetop { max-width:800px; margin:0 auto; clear:both; text-align:right;}
+#pagetop2 {
+position: fixed;
+  bottom: 20%;
+  right: 24%;
+max-width:800px; margin:0 auto; clear:both; text-align:right;}
+
+
+#back {clear:both; overflow:hidden; margin:0 auto; background-color:#D8D8D8; line-height:150%; }
+#contact {overflow:hidden; max-width:800px; margin:0 auto; background-color:#F2F2F2; color:#585858;}
+.jusho { max-width: 400px; margin:0 auto; padding:20px; float:left; background-color:#F2F2F2; color:#585858;}
+#banner { vertical-align:middle; float:right; max-width: 300px; margin-top:15px; margin-bottom:15px; margin-right:25px; background-color:#f2f2f2;}
+#banner  > a { vertical-align:middle;display:block; margin-right:10px;  margin-left:10px;  float:left;}
+#right { clear:both; text-align:center; margin:0 auto; padding:10px; background-color:#FFFFFF; color:#585858;}
+*/
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+/*here starts new settings for twitter bootstrap*/
+.tabs-photo {
+	border-bottom: 1px solid #145873;
+	font-size:16px;
+}
+.tabs-photo  > li > a {
+	color:#000000;
+}
+.tabs-photo  > li > a:hover {
+	border-color: #145873 #145873 #f9f9f9 #145873;
+	border-left: 3px solid #1f8eba;
+	color:#000000;
+}
+.tabs-photo  > li.active > a,
+.tabs-photo  > li.active > a:hover,
+.tabs-photo  > li.active > a:focus {
+	border-color: #145873 #145873 #f9f9f9 #145873;
+	border-left: 1px solid #145873;
+  background-color: #145873;
+	color:#f9f9f9;
+}
+
+.naiyo {
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.sub-naiyo {
+	margin-left:34px;
+	margin-right:34px;
+}
+
+.imgClip {
+	padding: 20px 0;
+	width:60%;
+    height: auto;
+    overflow:hidden;
+}
+
+.headimg{
+  display: block;
+  margin: 10;
+  padding: 0;
+  text-align: center;
+}
+#selectbox { position:fixed; display:block; padding:5px; margin-top:30px; margin-left:100px;}
+
+
+/*gallery*/
+#album  ul {
+	padding:15px;
+	margin:0;
+}
+#album ul li {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#album ul li img {
+	cursor: pointer;
+	margin:0;
+	padding:0;
+}
+.modal-body {
+  padding:5px !important;
+}
+.modal-content {
+  border-radius:0;
+}
+.modal-dialog img {
+  text-align:center;
+}
+.controls{
+	width:50px;
+	display:block;
+	font-size:14px;
+	padding-top:8px;
+}
+.next {
+	float:right;
+	text-align:right;
+}
+
+.upper {
+	z-index:1000;
+}
